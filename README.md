@@ -6,11 +6,8 @@ A bash script intended to be run from a conky config to create a blurred conky b
 
 The script is currently limited to the following desktop environments.
 
-* Cinnamon & MATE
-
-* Developed and tested on Cinnamon 5.2.7 - Linux Mint 20.3 with conky version 1.10.8
-* Further development and testing  with Cinnamon 5.2.7 on Manjaro with conky version 1.12.2
-* Tested on MATE 1.26 - Linux Mint 20.3
+* Cinnamon (developed and tested on Cinnamon 5.2.7 - Linux Mint 20.3)
+* MATE (partially tested on MATE 1.26 - Linux Mint 20.3)
 
 It is intended to add support for additional Desktop Environments in future.
 
@@ -70,9 +67,7 @@ Example of a command within the conky text using arguments:
 
 ## Dependencies
 
-The script requires the packages conky-all, wmctrl, imagemagick & dconf-cli to be installed.
-
-The commands xrandr and xwininfo must also be available on the system. The packages that provide these commands varies by distro.
+The script requires the packages conky-all, wmctrl, imagemagick, x11-xserver-utils, x11-utils & dconf-cli to be installed.
 
 ## Installation via the terminal.
 
